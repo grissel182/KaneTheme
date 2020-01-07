@@ -3,25 +3,140 @@
 /*pixeles*/
 body {
   padding-top: 70px;
-  /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */ }
-
+  /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */ 
+  font-family: 'century gothic', sans-serif !important;
+}h3,h4{
+  font-family: 'century gothic', sans-serif !important;
+}
 section {
   text-align: center; }
+.margen-titulo{
+  margin: 80px auto 70px;
+}
+.jane{
+  margin: 0px auto 80px auto;
+}
+.nopadding{
+  padding: 0;
+}
+.boton-ver{
+  background-color: #de6461;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  padding: 6px 45px;
+  margin: 10px auto;
 
+}
+.foot{
+  font-size: 24px;
+  margin: 80px auto;
+}
+.footerimage{
+  width: 100%;
+}
+.imagencien{
+  width: 100%;
+}
+.sub{
+  font-size: 18px;
+}
+.iconos{
+  width: 40px;
+  margin: 15px;
+}
+.bloquetxt{
+  padding: 100px;
+}
+.bloque{
+  width: 25%;
+  text-align: center;
+  margin: auto;
+}
+.bloque2{
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+.bloque3{
+  width: 40%;
+  text-align: left;
+  margin: auto;
+}
+.logo{
+  width: 100px;
+}
+.padding-l{
+  padding: 2px 45px;
+}
+.padding-left{
+
+  text-align: left;
+}
+.enviar{
+  background-color: #de6461;
+    color: #ffffff;
+    padding: 10px;
+    margin-left: -5px;
+}
+.bg-rosa{
+  background-color: #de6461;
+  color: #ffffff;
+}
+.texto-contacto{
+  max-width: 350px;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.price{
+  margin:25px auto;
+  font-size: 16px;
+  font-weight: 600;
+}
+.playeras{
+  width: 255px;
+}
+.playeras2{
+  width: 100%;
+  padding: 25px;
+}
+.pd-left{
+  padding-left: 25px;
+}
+.navbar-nav{
+  text-align: center !important;
+  float: none;
+}
+header{
+  font-size: 20px;
+}
 /*MENU*/
 .navbar-fixed-top .nav {
   padding: 15px 0; }
-.navbar-fixed-top .navbar-brand {
-  padding: 0 15px; }
-  .navbar-fixed-top .navbar-brand:hover, .navbar-fixed-top .navbar-brand:focus {
-    background-color: transparent; }
-
+.navbar-nav a{
+  color:black !important;
+}
+.navbar-fixed-top {
+  background-color: #ffffff;
+ }
+.navbar-fixed-top .navbar-brand:hover, .navbar-fixed-top .navbar-brand:focus {
+  background-color: transparent; }
+  .nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #ffffff;
+}
 .navbar-inverse {
-  background-color: #27AD60 !important;
+  background-color: rgb(252, 252, 252) !important;
   border: none !important; }
   .navbar-inverse .navbar-nav li > a:hover, .navbar-inverse .navbar-nav li > a:focus {
-    background-color: #334556; }
-
+    background-color: none; }
+.navbar-nav li{
+  position: relative !important;
+  display: inline-block !important;
+  float: unset !important;
+}
 /*SECCIONES///Y MIXINS/////*/
 .p-10 {
   padding: 5% 0; }
@@ -31,218 +146,7 @@ section {
   bottom: 25px;
   right: 50px; }
 
-#slide1 {
-  background-image: url(../img/carousel-bg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  margin-top: -20px;
-  padding-bottom: 15px; }
-  #slide1 p {
-    color: white;
-    font-size: 2em;
-    font-weight: 300; }
-  #slide1 h1 {
-    /*titulares*/
-    font-family: 'Roboto';
-    font-size: 4em;
-    font-weight: 500;
-    text-align: center;
-    color: white;
-    margin: 5% 10%; }
 
-#palette h1 {
-  /*titulares*/
-  font-family: 'Roboto';
-  font-size: 4em;
-  font-weight: 500;
-  text-align: center;
-  color: black;
-  margin: 5% 10%; }
-#palette hr {
-  /*lineas debajo titulares*/
-  margin: -2em 40% 3em;
-  background-color: black;
-  height: 2px; }
-#palette .sinpadding [class*="col-"] {
-  padding: 5px 0; }
-#palette .color1 {
-  width: 100%;
-  height: 10em;
-  background-color: #69D2E7; }
-#palette .color2 {
-  width: 100%;
-  height: 10em;
-  background-color: #A7DBDB; }
-#palette .color3 {
-  width: 100%;
-  height: 10em;
-  background-color: #E0E4CC; }
-#palette .color4 {
-  width: 100%;
-  height: 10em;
-  background-color: #F38630; }
-#palette .color5 {
-  width: 100%;
-  height: 10em;
-  background-color: #FA6900; }
-#palette .color6 {
-  width: 100%;
-  height: 10em;
-  background-color: #E94C6F; }
-#palette .color7 {
-  width: 100%;
-  height: 10em;
-  background-color: #542733;
-  color: white !important; }
-#palette .color8 {
-  width: 100%;
-  height: 10em;
-  background-color: #5A6A62; }
-#palette .color9 {
-  width: 100%;
-  height: 10em;
-  background-color: #C6D5CD; }
-#palette .color10 {
-  width: 100%;
-  height: 10em;
-  background-color: #FDF200; }
-#palette .color11 {
-  width: 100%;
-  height: 10em;
-  background-color: #DB3340; }
-#palette .color12 {
-  width: 100%;
-  height: 10em;
-  background-color: #E8B71A; }
-#palette .color13 {
-  width: 100%;
-  height: 10em;
-  background-color: #F7EAC8; }
-#palette .color14 {
-  width: 100%;
-  height: 10em;
-  background-color: #1FDA9A; }
-#palette .color15 {
-  width: 100%;
-  height: 10em;
-  background-color: #28ABE3; }
-#palette .color16 {
-  width: 100%;
-  height: 10em;
-  background-color: #588C73; }
-#palette .color17 {
-  width: 100%;
-  height: 10em;
-  background-color: #F2E394; }
-#palette .color18 {
-  width: 100%;
-  height: 10em;
-  background-color: #F2AE72; }
-#palette .color19 {
-  width: 100%;
-  height: 10em;
-  background-color: #D96459; }
-#palette .color20 {
-  width: 100%;
-  height: 10em;
-  background-color: #8C4646; }
-#palette .color21 {
-  width: 100%;
-  height: 10em;
-  background-color: #D0C91F; }
-#palette .color22 {
-  width: 100%;
-  height: 10em;
-  background-color: #85C4B9; }
-#palette .color23 {
-  width: 100%;
-  height: 10em;
-  background-color: #008BBA; }
-#palette .color24 {
-  width: 100%;
-  height: 10em;
-  background-color: #DF514C; }
-#palette .color25 {
-  width: 100%;
-  height: 10em;
-  background-color: #DC403B; }
-
-#about {
-  background-color: #334556;
-  box-shadow: 0px -4px 9px -2px #737173;
-  color: white;
-  text-align: left !important; }
-  #about img {
-    width: 100%; }
-  #about h1 {
-    /*titulares*/
-    font-family: 'Roboto';
-    font-size: 4em;
-    font-weight: 500;
-    text-align: center;
-    color: white;
-    margin: 5% 10%; }
-  #about hr {
-    /*lineas debajo titulares*/
-    margin: -2em 40% 3em;
-    background-color: gray;
-    height: 2px; }
-  #about p {
-    font-size: 1.2em; }
-  #about .barras {
-    margin: 10% 0; }
-    #about .barras p {
-      font-size: .9em;
-      margin-top: -1em; }
-    #about .barras .progress {
-      border-radius: 0 !important;
-      border: 2px solid white;
-      height: 15px !important; }
-      #about .barras .progress .progress-bar {
-        background-color: #F09B36 !important; }
-
-#wedo {
-  background-color: #27AD60;
-  color: white; }
-  #wedo h1 {
-    /*titulares*/
-    font-family: 'Roboto';
-    font-size: 4em;
-    font-weight: 500;
-    text-align: center;
-    color: white;
-    margin: 5% 10%; }
-  #wedo hr {
-    /*lineas debajo titulares*/
-    margin: -2em 40% 3em;
-    background-color: white;
-    height: 2px; }
-  #wedo .p-icon {
-    padding: 5%;
-    margin-top: 5%; }
-    #wedo .p-icon:hover {
-      background-color: #2A7257; }
-      #wedo .p-icon:hover h2 {
-        border-bottom: 1px solid white;
-        border: 100%;
-        padding-bottom: 5%;
-        color: #D7853D;
-        margin-top: 10%; }
-      #wedo .p-icon:hover .fond {
-        background-color: #D7853D;
-        transform: rotate(45deg);
-        background-image: none;
-        margin-bottom: 5%; }
-  #wedo .icons1 .fond {
-    width: 70%;
-    background-color: #F87F73;
-    background-image: linear-gradient(-90deg, #334556 0%, #334556 50%, #516C86 50%, #516C86 50%);
-    padding: 10% 5%;
-    margin-left: 15%; }
-  #wedo .icons1 p {
-    color: #C6C4C4;
-    margin-top: 10%; }
 
 #team {
   background-color: #27AD60;
@@ -273,229 +177,7 @@ section {
   #team .jane {
     padding: 5% 0 10%; }
 
-#price {
-  padding-bottom: 5%;
-  background-color: #334556;
-  color: white; }
-  #price h1 {
-    /*titulares*/
-    font-family: 'Roboto';
-    font-size: 4em;
-    font-weight: 500;
-    text-align: center;
-    color: white;
-    margin: 5% 10%; }
-  #price hr {
-    /*lineas debajo titulares*/
-    margin: -2em 40% 3em;
-    background-color: white;
-    height: 2px; }
-  #price .titus {
-    padding-bottom: 5%; }
-  #price .table-1 table {
-    margin-top: 5%;
-    margin-bottom: 10%;
-    border: 1px solid #27AD60;
-    width: 100%; }
-    #price .table-1 table th, #price .table-1 table td, #price .table-1 table th {
-      text-align: center;
-      padding: 8px; }
-    #price .table-1 table th {
-      background-color: #D7853D;
-      font-size: 1.5em;
-      font-weight: 100; }
-    #price .table-1 table tr:nth-child(odd) {
-      background-color: #D7853D;
-      color: white; }
-    #price .table-1 table tr {
-      color: black;
-      background-color: white; }
-    #price .table-1 table .verde {
-      background-color: #27AD60 !important;
-      color: white; }
-      #price .table-1 table .verde span {
-        font-size: 3em; }
-      #price .table-1 table .verde p {
-        font-size: 10px; }
-    #price .table-1 table .boton {
-      padding: 5%;
-      background-color: transparent !important; }
-  #price .table-1:hover {
-    margin-top: -5%; }
-    #price .table-1:hover table {
-      margin-top: 5%;
-      margin-bottom: 10%;
-      border: 1px solid #D7853D;
-      width: 100%; }
-      #price .table-1:hover table th, #price .table-1:hover table td, #price .table-1:hover table th {
-        text-align: center;
-        padding: 8px; }
-      #price .table-1:hover table th {
-        background-color: #334556;
-        font-size: 1.5em;
-        font-weight: 100; }
-      #price .table-1:hover table tr:nth-child(odd) {
-        background-color: #334556;
-        color: white; }
-      #price .table-1:hover table tr {
-        color: black;
-        background-color: white; }
-      #price .table-1:hover table .verde {
-        background-color: #27AD60 !important;
-        color: white; }
-        #price .table-1:hover table .verde span {
-          font-size: 3em; }
-        #price .table-1:hover table .verde p {
-          font-size: 10px; }
-      #price .table-1:hover table .boton {
-        padding: 5%;
-        background-color: transparent !important; }
-  #price .table-2 table {
-    margin-top: 5%;
-    margin-bottom: 10%;
-    border: 1px solid #27AD60;
-    width: 100%; }
-    #price .table-2 table th, #price .table-2 table td, #price .table-2 table th {
-      text-align: center;
-      padding: 8px; }
-    #price .table-2 table th {
-      background-color: #334556;
-      font-size: 1.5em;
-      font-weight: 100; }
-    #price .table-2 table tr:nth-child(odd) {
-      background-color: #334556;
-      color: white; }
-    #price .table-2 table tr {
-      color: black;
-      background-color: white; }
-    #price .table-2 table .verde {
-      background-color: #27AD60 !important;
-      color: white; }
-      #price .table-2 table .verde span {
-        font-size: 3em; }
-      #price .table-2 table .verde p {
-        font-size: 10px; }
-    #price .table-2 table .boton {
-      padding: 5%;
-      background-color: transparent !important; }
-  #price .table-2:hover {
-    margin-top: -5%; }
-    #price .table-2:hover table {
-      margin-top: 5%;
-      margin-bottom: 10%;
-      border: 1px solid #D7853D;
-      width: 100%; }
-      #price .table-2:hover table th, #price .table-2:hover table td, #price .table-2:hover table th {
-        text-align: center;
-        padding: 8px; }
-      #price .table-2:hover table th {
-        background-color: #D7853D;
-        font-size: 1.5em;
-        font-weight: 100; }
-      #price .table-2:hover table tr:nth-child(odd) {
-        background-color: #D7853D;
-        color: white; }
-      #price .table-2:hover table tr {
-        color: black;
-        background-color: white; }
-      #price .table-2:hover table .verde {
-        background-color: #27AD60 !important;
-        color: white; }
-        #price .table-2:hover table .verde span {
-          font-size: 3em; }
-        #price .table-2:hover table .verde p {
-          font-size: 10px; }
-      #price .table-2:hover table .boton {
-        padding: 5%;
-        background-color: transparent !important; }
 
-#client {
-  padding-bottom: 5%;
-  background-color: #334556;
-  color: white; }
-  #client h1 {
-    /*titulares*/
-    font-family: 'Roboto';
-    font-size: 4em;
-    font-weight: 500;
-    text-align: center;
-    color: white;
-    margin: 5% 10%; }
-  #client hr {
-    /*lineas debajo titulares*/
-    margin: -2em 40% 3em;
-    background-color: white;
-    height: 2px; }
-  #client i {
-    font-weight: 100;
-    font-size: 1.2em; }
-  #client .mb-cli {
-    margin-bottom: 5%; }
-  #client .company {
-    color: #D7853D;
-    margin-bottom: 7%; }
-
-#contact {
-  padding-bottom: 5%;
-  background-color: #334556;
-  color: white; }
-  #contact h1 {
-    /*titulares*/
-    font-family: 'Roboto';
-    font-size: 4em;
-    font-weight: 500;
-    text-align: center;
-    color: white;
-    margin: 5% 10%; }
-  #contact hr {
-    /*lineas debajo titulares*/
-    margin: -2em 40% 3em;
-    background-color: white;
-    height: 2px; }
-  #contact input, #contact textarea {
-    padding: 6px;
-    color: #CAC7C7;
-    margin: 15px 5px; }
-  #contact form {
-    margin-top: 5%; }
-  #contact .left {
-    text-align: left; }
-
-#redes {
-  background-image: url(../img/img-divider-img.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  width: 100%;
-  height: 35em;
-  padding-top: 10em; }
-  #redes .trigo {
-    background-image: url(../img/img-divider-img.jpg);
-    background-size: cover;
-    background-position: top;
-    width: 100%;
-    height: 25em; }
-    #redes .trigo i {
-      margin: 10% 15px; }
-
-footer {
-  background-color: #27AD60;
-  color: white; }
-  footer h4 {
-    font-weight: 400; }
-  footer .linea {
-    margin: 0 30% 10%; }
-  footer .linea-2 {
-    margin: 0 40% 5%; }
-  footer i, footer span {
-    font-weight: 400;
-    line-height: 2; }
-  footer .input-group-addon {
-    color: #D7853D !important; }
-  footer li, footer ul, footer p {
-    display: inline-block; }
-  footer .dark {
-    color: #334556; }
 
 /*/////////////////MEDIA QUERIES///////////////////////*/
 @media (min-width: 768px) {
